@@ -9,7 +9,7 @@ module Periscope
       private
 
       def periscope_default_scope
-        where!
+        scoped
       end
     end
   end
