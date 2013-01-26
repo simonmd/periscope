@@ -9,7 +9,7 @@ module Periscope
       private
 
       def periscope_default_scope
-        all
+        where
       end
     end
   end
